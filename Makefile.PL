@@ -1,12 +1,14 @@
+use utf8;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME          => 'Perl::Critic::PolicyBundle::SNEZ',
-    VERSION_FROM  => 'lib/Perl/Critic/PolicyBundle/SNEZ.pm',
-    ABSTRACT_FROM => 'lib/Perl/Critic/PolicyBundle/SNEZ.pm',
-    AUTHOR        => 'Szymon Nieznański',
-    LICENSE       => 'perl_5',
-    PREREQ_PM     => {
+    NAME             => 'Perl::Critic::PolicyBundle::SNEZ',
+    VERSION_FROM     => 'lib/Perl/Critic/PolicyBundle/SNEZ.pm',
+    ABSTRACT_FROM    => 'lib/Perl/Critic/PolicyBundle/SNEZ.pm',
+    AUTHOR           => 'Szymon Nieznański',
+    MIN_PERL_VERSION => '5.10.1',
+    LICENSE          => 'perl_5',
+    PREREQ_PM        => {
         'strict'          => 0,
         'warnings'        => 0,
         'parent'          => 0,
