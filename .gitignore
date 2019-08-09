@@ -1,0 +1,7 @@
+Perl-Critic-PolicyBundle-SNEZ-[0-9].[0-9][0-9]/
+Perl-Critic-PolicyBundle-SNEZ-[0-9].[0-9][0-9].tar.gz
+blib
+pm_to_blib
+MYMETA.*
+Makefile
+MANIFEST.bak
